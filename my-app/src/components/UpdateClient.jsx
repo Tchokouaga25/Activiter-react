@@ -43,10 +43,10 @@ const UpdateClient = () => {
 
   return (
     <div className="update-client">
-      <h2>Modifier le Client</h2>
-      <form onSubmit={handleSubmit} className="client-form">
+      <h2  className="text-3xl font-bold my-6 text-center">Modifier le Client</h2>
+      <form onSubmit={handleSubmit} className="client-form bg-gray-50 rounded-lg shadow-md">
         <div className="form-group">
-          <label htmlFor="name">Nom:</label>
+          <label className=" text-left" htmlFor="name">Nom:</label>
           <input
             type="text"
             id="name"
@@ -57,7 +57,7 @@ const UpdateClient = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="adresse">Adresse:</label>
+          <label className=" text-left" htmlFor="adresse">Adresse:</label>
           <input
             type="text"
             id="adresse"
@@ -68,7 +68,7 @@ const UpdateClient = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="tel">Téléphone:</label>
+          <label className=" text-left" htmlFor="tel">Téléphone:</label>
           <input
             type="text"
             id="tel"
